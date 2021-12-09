@@ -205,10 +205,10 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/eSport_BOTs"),
+                            url=f"https://t.me/Pubglovers_shayri_lovers"),
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/EsportClan")
+                            url=f"https://t.me/Shayri_Music_Lovers")
                    
                 ]
             ]
