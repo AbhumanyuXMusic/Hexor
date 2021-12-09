@@ -11,37 +11,37 @@ async def start(_, message: Message):
     
     await message.reply_text(
         f"""**
-𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 🥀𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐮𝐬𝐢𝐜 🎶 𝐁𝐨𝐭 \n𝐑𝐮𝐧 𝐎𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 🥀 𝐕𝐩𝐬 💫𝐒𝐞𝐫𝐯𝐞𝐫 🌎 \n𝐅𝐞𝐞𝐥 ❤️ 𝐇𝐢𝐠𝐡 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐌𝐮𝐬𝐢𝐜 🎧 𝐈𝐧 𝐕𝐜 😎🤟 \n⭐𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 [𝗲𝗦𝗽𝗼𝗿𝘁 𝗛𝗲𝘅𝗼𝗿](https://t.me/Its_Hexor)**
+𝐓𝐡𝐢𝐬 𝐈𝐬 𝐂𝐚𝐧𝐝𝐲 🍬 𝐌𝐮𝐬𝐢𝐜'𝐗 🧚‍♀️ 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 🥀𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐮𝐬𝐢𝐜 🎶 𝐁𝐨𝐭 \n𝐑𝐮𝐧 𝐎𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 🥀 𝐕𝐩𝐬 💫𝐒𝐞𝐫𝐯𝐞𝐫 🌎 \n𝐅𝐞𝐞𝐥 ❤️ 𝐇𝐢𝐠𝐡 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐌𝐮𝐬𝐢𝐜 🎧 𝐈𝐧 𝐕𝐜 😎🤟 \n⭐𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 [ʀᴏᴄᴋꜱ ᴄᴀɴᴅʏ](https://t.me/candy_626)**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "❰𝗢𝘄𝗻𝗲𝗿❱", url="https://t.me/Sanki_Owner")
+                        "❰𝗢𝘄𝗻𝗲𝗿🍬❱", url="https://t.me/candy_626")
                   ],[
                     InlineKeyboardButton(
-                        "❰𝗦𝘂𝗽𝗽𝗼𝗿𝘁🌎❱", url="https://t.me/eSport_BOTs"
+                        "❰𝗦𝘂𝗽𝗽𝗼𝗿𝘁🌎❱", url="https://t.me/AlishaSupport"
                     ),
                     InlineKeyboardButton(
-                        "❰𝗚𝗿𝗼𝘂𝗽🚩❱", url="https://t.me/EsportClan"
+                        "❰𝗚𝗿𝗼𝘂𝗽🚩❱", url="https://t.me/Shayri_Music_Lovers"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "❰𝗖𝗼𝗺𝗺𝗮𝗱𝘀🥀❱", url="https://telegra.ph/%EA%9C%B1%E1%B4%8D%E1%B4%8F%E1%B4%8B%E1%B4%87%CA%80-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%CA%99%E1%B4%8F%E1%B4%9B-%E1%B4%84%E1%B4%8F%E1%B4%8D%E1%B4%8D%E1%B4%80%C9%B4%E1%B4%85%EA%9C%B1-08-29"
+                        "❰𝐅𝐞𝐝𝐫𝐚𝐭𝐢𝐨𝐧🥀❱", url="https://t.me/Venomofficialfed" 
                     )]
             ]
         ),
      disable_web_page_preview=True
     )
 
-@Client.on_message(filters.command("Esport") & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command("Candy") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**𝐞𝐒𝐩𝐨𝐫𝐭 𝐌𝐮𝐬𝐢𝐜'𝐗 𝐎𝐧𝐥𝐢𝐧𝐞\n🌠𝐞𝐒𝐩𝐨𝐫𝐭_𝐎𝐩 🥀**""",
+      await message.reply_text("""**𝐂𝐚𝐧𝐝𝐲 🍬 𝐌𝐮𝐬𝐢𝐜'𝐗 𝐈𝐬 𝐎𝐧𝐥𝐢𝐧𝐞 🧚‍♀️\n🌠𝐂𝐚𝐧𝐝𝐲_𝐎𝐩 🥀**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝗦𝘂𝗽𝗽𝗼𝗿𝘁❤️", url="https://t.me/eSport_BOTs")
+                        "𝗦𝘂𝗽𝗽𝗼𝗿𝘁❤️", url="https://t.me/Shayri_Music_Lovers")
                 ]
             ]
         )
